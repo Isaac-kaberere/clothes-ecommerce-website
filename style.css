@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* navigation bar */
 .navbar {
     display: flex;
     align-items: center;
@@ -32,6 +33,8 @@ a {
     padding-left: 25px;
     padding-right: 25px;
 }
+/* background image - header */
+
 .row {
     display: flex;
     align-items: center;
@@ -56,6 +59,7 @@ a {
     font-weight: 500;
     margin-bottom: 30px;
 }
+/* button */
 .button {
     display: inline-block;
     border: 1px solid black;
@@ -76,6 +80,8 @@ a {
 .header .row {
     margin-top: 70px;
 }
+/* categories */
+
 .categories {
     margin: 50px 0;
 }
@@ -92,6 +98,8 @@ a {
     padding-left: 25px;
     padding-right: 25px;
 }
+/* featured products */
+
 .col4 {
     flex-basis: 25%;
     min-width: 200px;
@@ -113,6 +121,8 @@ a {
     color: black;
     font-weight: 700;
 }
+/* title */
+
 .heading {
     text-align: center;
     margin-bottom: 40px;
@@ -138,6 +148,7 @@ a {
 
 
 }
+/* offer */
 .offer {
     background: pink;
     padding: 30px 0;
@@ -146,12 +157,13 @@ a {
 .col2 .offer-img {
     padding: 50px;
 }
+/* testimonial */
+
 .testimonial {
     padding: 70px;
 }
 .testimonial .col3 {
     text-align: center;
-    margin-bottom: 50px;
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0,0,0,0.5);
     padding: 40px 20px;
@@ -175,7 +187,7 @@ a {
     margin: 12px 0;
     color: #777;
 }
-
+/* brands */
 .brands {
     margin: 100px auto;
 }
@@ -191,6 +203,7 @@ a {
     filter: grayscale(0);
 }
 
+/* footer */
 
 .footer {
     background: black;
@@ -233,8 +246,50 @@ ul {
 .app-logo img {
     width: 140px;
 }
+.footer hr {
+    height: 1px;
+    border: none;
+    background: red;
+    margin: 20px 0;
+}
+.copyright {
+    text-align: center;
+}
+.menue-icon {
+    width: 28px;
+}
 
 
+/*----- Products page code ------ */
+
+.row-2 {
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select {
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+select:focus {
+    outline: none;
+}
+.page-btn {
+    margin: 0 auto 80px;
+}
+.page-btn span {
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.page-btn span:hover {
+    background: papayawhip;
+}
 
 
 
