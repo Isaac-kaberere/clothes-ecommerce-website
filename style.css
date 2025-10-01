@@ -292,11 +292,62 @@ select:focus {
 }
 
 
+/*------ product-details-----*/
+
+.single-product {
+    margin-top: 70px;
+}
+.single-product .col2 img{
+    padding: 0;
+}
+.single-product .col2 {
+    padding: 20px;
+}
+.single-product h4 {
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 22px;
+}
+.single-product select {
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+}
+.single-product input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid red;
+}
+input:focus {
+    outline: none;
+}
+/* ---- product heading icon ---- 
+.single-product icon {
 
 
 
-
-
+}
+*/
+.small-img {
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.rel {
+    font-size: 20px;
+    color: red;
+    font-weight: 400;
+    margin: 50px;
+}
+.para {
+    color: #777;
+    font-weight: 500;
+}
 
 
 
